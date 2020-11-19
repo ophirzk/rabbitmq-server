@@ -98,7 +98,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs
         path: ct-cluster_rename-logs/*-ct-logs-*.tar.xz
-    - name: RUN ct-0 cluster_rename [mixed v3.7.28]
+    - name: RUN ct-cluster_rename 0 [mixed v3.7.28]
       run: |
         mkdir ct-cluster_rename-logs-v3.7.28 && chmod 777 ct-cluster_rename-logs-v3.7.28
         docker run \
@@ -116,7 +116,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs-mixed-v3.7.28
         path: ct-cluster_rename-logs-v3.7.28/*-ct-logs-*.tar.xz
-    - name: RUN ct-0 cluster_rename [mixed v3.8.9]
+    - name: RUN ct-cluster_rename 0 [mixed v3.8.9]
       run: |
         mkdir ct-cluster_rename-logs-v3.8.9 && chmod 777 ct-cluster_rename-logs-v3.8.9
         docker run \
@@ -151,7 +151,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs
         path: ct-cluster_rename-logs/*-ct-logs-*.tar.xz
-    - name: RUN ct-1 cluster_rename [mixed v3.7.28]
+    - name: RUN ct-cluster_rename 1 [mixed v3.7.28]
       run: |
         mkdir ct-cluster_rename-logs-v3.7.28 && chmod 777 ct-cluster_rename-logs-v3.7.28
         docker run \
@@ -169,7 +169,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs-mixed-v3.7.28
         path: ct-cluster_rename-logs-v3.7.28/*-ct-logs-*.tar.xz
-    - name: RUN ct-1 cluster_rename [mixed v3.8.9]
+    - name: RUN ct-cluster_rename 1 [mixed v3.8.9]
       run: |
         mkdir ct-cluster_rename-logs-v3.8.9 && chmod 777 ct-cluster_rename-logs-v3.8.9
         docker run \
@@ -204,7 +204,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs
         path: ct-cluster_rename-logs/*-ct-logs-*.tar.xz
-    - name: RUN ct-2 cluster_rename [mixed v3.7.28]
+    - name: RUN ct-cluster_rename 2 [mixed v3.7.28]
       run: |
         mkdir ct-cluster_rename-logs-v3.7.28 && chmod 777 ct-cluster_rename-logs-v3.7.28
         docker run \
@@ -222,7 +222,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs-mixed-v3.7.28
         path: ct-cluster_rename-logs-v3.7.28/*-ct-logs-*.tar.xz
-    - name: RUN ct-2 cluster_rename [mixed v3.8.9]
+    - name: RUN ct-cluster_rename 2 [mixed v3.8.9]
       run: |
         mkdir ct-cluster_rename-logs-v3.8.9 && chmod 777 ct-cluster_rename-logs-v3.8.9
         docker run \
@@ -257,7 +257,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs
         path: ct-cluster_rename-logs/*-ct-logs-*.tar.xz
-    - name: RUN ct-3 cluster_rename [mixed v3.7.28]
+    - name: RUN ct-cluster_rename 3 [mixed v3.7.28]
       run: |
         mkdir ct-cluster_rename-logs-v3.7.28 && chmod 777 ct-cluster_rename-logs-v3.7.28
         docker run \
@@ -275,7 +275,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs-mixed-v3.7.28
         path: ct-cluster_rename-logs-v3.7.28/*-ct-logs-*.tar.xz
-    - name: RUN ct-3 cluster_rename [mixed v3.8.9]
+    - name: RUN ct-cluster_rename 3 [mixed v3.8.9]
       run: |
         mkdir ct-cluster_rename-logs-v3.8.9 && chmod 777 ct-cluster_rename-logs-v3.8.9
         docker run \
@@ -310,7 +310,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs
         path: ct-cluster_rename-logs/*-ct-logs-*.tar.xz
-    - name: RUN ct-4 cluster_rename [mixed v3.7.28]
+    - name: RUN ct-cluster_rename 4 [mixed v3.7.28]
       run: |
         mkdir ct-cluster_rename-logs-v3.7.28 && chmod 777 ct-cluster_rename-logs-v3.7.28
         docker run \
@@ -328,7 +328,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs-mixed-v3.7.28
         path: ct-cluster_rename-logs-v3.7.28/*-ct-logs-*.tar.xz
-    - name: RUN ct-4 cluster_rename [mixed v3.8.9]
+    - name: RUN ct-cluster_rename 4 [mixed v3.8.9]
       run: |
         mkdir ct-cluster_rename-logs-v3.8.9 && chmod 777 ct-cluster_rename-logs-v3.8.9
         docker run \
@@ -363,7 +363,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs
         path: ct-cluster_rename-logs/*-ct-logs-*.tar.xz
-    - name: RUN ct-5 cluster_rename [mixed v3.7.28]
+    - name: RUN ct-cluster_rename 5 [mixed v3.7.28]
       run: |
         mkdir ct-cluster_rename-logs-v3.7.28 && chmod 777 ct-cluster_rename-logs-v3.7.28
         docker run \
@@ -381,7 +381,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs-mixed-v3.7.28
         path: ct-cluster_rename-logs-v3.7.28/*-ct-logs-*.tar.xz
-    - name: RUN ct-5 cluster_rename [mixed v3.8.9]
+    - name: RUN ct-cluster_rename 5 [mixed v3.8.9]
       run: |
         mkdir ct-cluster_rename-logs-v3.8.9 && chmod 777 ct-cluster_rename-logs-v3.8.9
         docker run \
@@ -416,7 +416,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs
         path: ct-cluster_rename-logs/*-ct-logs-*.tar.xz
-    - name: RUN ct-6 cluster_rename [mixed v3.7.28]
+    - name: RUN ct-cluster_rename 6 [mixed v3.7.28]
       run: |
         mkdir ct-cluster_rename-logs-v3.7.28 && chmod 777 ct-cluster_rename-logs-v3.7.28
         docker run \
@@ -434,7 +434,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs-mixed-v3.7.28
         path: ct-cluster_rename-logs-v3.7.28/*-ct-logs-*.tar.xz
-    - name: RUN ct-6 cluster_rename [mixed v3.8.9]
+    - name: RUN ct-cluster_rename 6 [mixed v3.8.9]
       run: |
         mkdir ct-cluster_rename-logs-v3.8.9 && chmod 777 ct-cluster_rename-logs-v3.8.9
         docker run \
@@ -469,7 +469,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs
         path: ct-cluster_rename-logs/*-ct-logs-*.tar.xz
-    - name: RUN ct-7 cluster_rename [mixed v3.7.28]
+    - name: RUN ct-cluster_rename 7 [mixed v3.7.28]
       run: |
         mkdir ct-cluster_rename-logs-v3.7.28 && chmod 777 ct-cluster_rename-logs-v3.7.28
         docker run \
@@ -487,7 +487,7 @@ jobs:
       with:
         name: rabbit-ct-cluster_rename-logs-mixed-v3.7.28
         path: ct-cluster_rename-logs-v3.7.28/*-ct-logs-*.tar.xz
-    - name: RUN ct-7 cluster_rename [mixed v3.8.9]
+    - name: RUN ct-cluster_rename 7 [mixed v3.8.9]
       run: |
         mkdir ct-cluster_rename-logs-v3.8.9 && chmod 777 ct-cluster_rename-logs-v3.8.9
         docker run \
